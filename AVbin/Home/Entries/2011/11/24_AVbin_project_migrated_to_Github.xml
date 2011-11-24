@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20111124" date="2011-11-24 22:54:34 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;AVbin News&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>AVbin project migrated to Github</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Welcome to the new AVbin site!  AVbin has moved from subversion on Google code to Git on Github.  We hope that the move promotes more collaboration and participation in the project.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, November 24, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="24_AVbin_project_migrated_to_Github_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="300px"/>
+</content>

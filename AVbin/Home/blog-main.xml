@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Home</title>
+    <link>http://avbin.github.com/AVbin/Home</link>
+    <description>AVbin is a thin cross-platform wrapper around FFmpeg&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
+
+AVbin was created for Pyglet as its media decoding/decompression library.  though others may find AVbin useful as well.
+</description>
+    <item>
+      <title>AVbin project migrated to Github</title>
+      <link>http://avbin.github.com/AVbin/Home/Entries/2011/11/24_AVbin_project_migrated_to_Github.html</link>
+      <guid isPermaLink="false">c9b268ff-ec96-41c5-b2ca-ca57cd24dfc8</guid>
+      <pubDate>Thu, 24 Nov 2011 14:41:31 -0700</pubDate>
+      <description>Welcome to the new AVbin site!  AVbin has moved from subversion on Google code to Git on Github.  We hope that the move promotes more collaboration and participation in the project.</description>
+      <iweb:image href="Media/object004.jpg"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2011/11/24_AVbin_project_migrated_to_Github.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, MMMM d, y</iweb:dateFormat>
+    <iweb:baseURL>http://avbin.github.com/AVbin/Home</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>
