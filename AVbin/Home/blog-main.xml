@@ -5,8 +5,7 @@
     <link>http://avbin.github.com/AVbin/Home</link>
     <description>AVbin is a thin cross-platform wrapper around FFmpeg&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
 
-AVbin was created for Pyglet as its media decoding/decompression library.  though others may find AVbin useful as well.
-</description>
+AVbin was created for Pyglet as its media decoding/decompression library.  though others may find AVbin useful as well.</description>
     <item>
       <title>AVbin project migrated to Github</title>
       <link>http://avbin.github.com/AVbin/Home/Entries/2011/11/24_AVbin_project_migrated_to_Github.html</link>
