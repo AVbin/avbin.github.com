@@ -66,35 +66,45 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
         </div>
         <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
-          <div id="id2" style="height: 798px; left: 35px; position: absolute; top: 7px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
-            <div class="text-content graphic_textbox_layout_style_default_External_630_798" style="padding: 0px; ">
+          <div id="id2" style="height: 990px; left: 35px; position: absolute; top: 7px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_630_990" style="padding: 0px; ">
               <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style">AVbin is a thin wrapper around <a title="http://ffmpeg.org/" href="http://ffmpeg.org/">FFmpeg</a>’s video and audio decoding functionality, providing binary compatibility for applications and languages that need it. AVbin was created for <a title="http://pyglet.org/" href="http://pyglet.org/">Pyglet</a> as its media decompression library, though others may find AVbin useful as well.<br /></p>
-                <p class="Body"><br /></p>
-                <p class="paragraph_style_1">Details<br /></p>
-                <p class="Body"><br /></p>
-                <p class="paragraph_style">FFmpeg is a collection of audio and video codecs widely used in projects such as mplayer, xine, gstreamer and VLC. It is under continuous development; so much so that its developers rarely provide a release, and SVN snapshots of the library must be statically linked to avoid version incompatibilities.<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">AVbin allows programs that require dynamic linkage to use FFmpeg. It does this by providing<br /></p>
-                <p class="paragraph_style">an accurate version number within the shared library, allowing applications to select the appropriate data structures and functions to use at runtime, and a simplified interface with an unchanging ABI to the most common decoding functionality within FFmpeg.<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">AVbin is distributed as a single dynamic library (.so on Linux, .dylib on Mac OS X, and .dll on Windows) that depends on no other files or installations. This eliminates the many complexities of building FFmpeg on platforms other than Linux; however you can still build it from source if you prefer.<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">AVbin releases focus on providing the dynamic library for all supported platforms.  Current supported platforms are 32-bit and 64-bit versions of OS X, Linux, and Windows.  As of version 8, only x86-based architectures are supported (PowerPC support has been deprecated).<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style_2">Coding<br /></p>
+                <p style="padding-top: 0pt; " class="paragraph_style">AVbin repository web site: <a title="http://github.com/avbin/avbin" href="http://github.com/avbin/avbin">http://github.com/avbin/avbin</a><br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="paragraph_style_1">Description<br /></p>
                 <p class="paragraph_style_2"><br /></p>
-                <p class="paragraph_style">Download the <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin/downloads" href="https://github.com/AVbin/AVbin/downloads" onkeypress="window.open(this.href); return false;">latest source tarball</a>.  Or clone the source repository from the <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin" href="https://github.com/AVbin/AVbin" onkeypress="window.open(this.href); return false;">AVbin Files page</a> or by running the following command:<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">    git clone git://github.com/AVbin/AVbin.git<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">You can use AVbin in one of two ways. Linking against the avbin shared library provides all libavcodec, libavutil and libavformat functions. You can use the <span class="style_1">avbin_get_ffmpeg_revision</span> function to determine the exact version of FFmpeg that has been linked, and use the appropriate data structures and functions.<br /></p>
-                <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">Because the FFmpeg interface changes quite quickly, AVbin also provides a simpler interface that is guaranteed to be backward and forward compatible with future releases. The source release contains a <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin/blob/master/include/avbin.h" href="https://github.com/AVbin/AVbin/blob/master/include/avbin.h" onkeypress="window.open(this.href); return false;">header file</a> for this interface in the <span class="style_1">include</span> directory.<br /></p>
+                <p class="paragraph_style_2">AVbin is a thin cross-platform wrapper around <a title="http://ffmpeg.org/" href="http://ffmpeg.org/">FFmpeg</a>’s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.<br /></p>
+                <p class="paragraph_style_2"><br /></p>
+                <p class="paragraph_style_2">AVbin was created for <a title="http://pyglet.org/" href="http://pyglet.org/">Pyglet</a> as its media decoding/decompression library.  though others may find AVbin useful as well.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3">Details<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_4">FFmpeg is a collection of audio and video codecs widely used in projects such as mplayer, xine, gstreamer and VLC. It is under continuous development; so much so that its developers rarely provide a release, and SVN snapshots of the library must be statically linked to avoid version incompatibilities.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">AVbin allows programs that require dynamic linkage to use FFmpeg. It does this by providing<br /></p>
+                <p class="paragraph_style_4">an accurate version number within the shared library, allowing applications to select the appropriate data structures and functions to use at runtime, and a simplified interface with an unchanging ABI to the most common decoding functionality within FFmpeg.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">AVbin is distributed as a single dynamic library (.so on Linux, .dylib on Mac OS X, and .dll on Windows) that depends on no other files or installations. This eliminates the many complexities of building FFmpeg on platforms other than Linux; however you can still build it from source if you prefer.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">AVbin releases focus on providing the dynamic library for all supported platforms.  Current supported platforms are 32-bit and 64-bit versions of OS X, Linux, and Windows.  As of version 8, only x86-based architectures are supported (PowerPC support has been deprecated).<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_5">Coding<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_4">Download the <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin/downloads" href="https://github.com/AVbin/AVbin/downloads" onkeypress="window.open(this.href); return false;">latest source tarball</a>.  Or clone the source repository from the <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin" href="https://github.com/AVbin/AVbin" onkeypress="window.open(this.href); return false;">AVbin Files page</a> or by running the following command:<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">    git clone git://github.com/AVbin/AVbin.git<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">You can use AVbin in one of two ways. Linking against the avbin shared library provides all libavcodec, libavutil and libavformat functions. You can use the <span class="style_1">avbin_get_ffmpeg_revision</span> function to determine the exact version of FFmpeg that has been linked, and use the appropriate data structures and functions.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">Because the FFmpeg interface changes quite quickly, AVbin also provides a simpler interface that is guaranteed to be backward and forward compatible with future releases. The source release contains a <a onclick="window.open(this.href); return false;" title="https://github.com/AVbin/AVbin/blob/master/include/avbin.h" href="https://github.com/AVbin/AVbin/blob/master/include/avbin.h" onkeypress="window.open(this.href); return false;">header file</a> for this interface in the <span class="style_1">include</span> directory.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_5">Credits<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">AVbin was created by Alex Holkner.  Current project maintainer is Nathan Stocks.<br /></p>
               </div>
             </div>
           </div>
-          <div style="height: 805px; line-height: 805px; " class="spacer"> </div>
+          <div style="height: 997px; line-height: 997px; " class="spacer"> </div>
         </div>
         <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
           <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
