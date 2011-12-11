@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
-  <lastEdited clientType="local-build-20111210" date="2011-12-11 04:47:24 +0000"/>
+  <lastEdited clientType="local-build-20111210" date="2011-12-11 05:23:51 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
     <richText>&lt;b&gt;AVbin Migration&lt;/b&gt;</richText>
   </textBox>
