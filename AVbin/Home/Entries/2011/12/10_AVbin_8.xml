@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20111210" date="2011-12-11 04:47:25 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Release: AVbin 8&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>AVbin 8</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>I am proud to announce AVbin 8, the first full release since 2008.&#xD;&#xD;To all those who pointed me in the right direction on mailing lists and forums:  Thank you!!!  I would like to specifically mention Alex Holkner, who created this project in the first place, and Micah Richert, whose shoulders I stood on for this release.&#xD;&#xD;&lt;b&gt;AVbin 8 Highlights&#xD;&lt;/b&gt;	-	Established which platforms were going to be supported going forward (added Win64 and OS X 64-bit Intel; dropped OS X 32-bit PPC)&#xD;	-	Created development/build environments for each platform&#xD;	-	Successfully compiled/released a build for each platform&#xD;	-	Migrated from svn on Google Project to git on Github&#xD;	-	Created a new project web site&#xD;	-	28 commits&#xD;	-	Approximately 15 issues closed...though mostly since they just don&#x2019;t apply any more.&#xD;&#xD;&lt;b&gt;Known Issues with AVbin 8:&#xD;&lt;/b&gt;	-	The version of FFmpeg used is one year old, and has known bugs and security problems&#xD;	-	The AVbin binaries have not been tested internally.&#xD;	-	The AVbin binaries have not been tested with Pyglet.&#xD;	-	It is known that the build doesn&#x2019;t actually work for a lot of file formats you would expect it to on at least one platform (win32)&#xD;&#xD;The previous release was based on a 3-year old FFmpeg revision.  That revision had even more bugs and security problems than the newer one we used.  When I took over as the new maintainer almost exactly a month ago, I accepted the generous offer of Micah Richert to use his personal build he had put together a year ago as a starting point.  Since using the newest code was &lt;b&gt;not&lt;/b&gt; a goal for this release, I simply used the exact revision that Micah used, to minimize the already considerable effort it was taking to get this project resurrected.&#xD;&#xD;I&#x2019;ve put together a &lt;a href="perma://BLPageReference/6C236FFC-7C53-4AE3-9365-0199885ADFD1"&gt;Roadmap&lt;/a&gt; for things to accomplish for AVbin 9.  Check it out!&#xD;&#xD;~ Nathan</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, December 10, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_AVbin_8_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="300px"/>
+</content>
