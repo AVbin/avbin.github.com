@@ -7,6 +7,15 @@
 
 AVbin was originally created for the Pyglet project as its media decoding/decompression library,  though others may find AVbin useful as well.</description>
     <item>
+      <title>New Logo &amp; Online Documentation</title>
+      <link>http://avbin.github.com/AVbin/Home/Entries/2011/12/13_New_Logo_%26_Online_Documentation.html</link>
+      <guid isPermaLink="false">dc52ce87-6a69-4a3e-bed2-8d68730916f5</guid>
+      <pubDate>Tue, 13 Dec 2011 23:37:00 -0700</pubDate>
+      <description>Today I set out to generate &lt;a href="http://avbin.github.com/docs/"&gt;online documentation&lt;/a&gt;, got distracted and made a &lt;a href="Entries/2011/12/13_New_Logo_%26_Online_Documentation_files/avbin-logo-full.png"&gt;logo&lt;/a&gt; instead, and then found that I still had time to generate the documentation.  It was a very productive day.</description>
+      <iweb:image href="Media/object017.png"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2011/12/13_New_Logo_%26_Online_Documentation.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
       <title>AVbin 8</title>
       <link>http://avbin.github.com/AVbin/Home/Entries/2011/12/10_AVbin_8.html</link>
       <guid isPermaLink="false">3e3040a0-7cfc-4fc9-ade3-eb446bb2d7b4</guid>

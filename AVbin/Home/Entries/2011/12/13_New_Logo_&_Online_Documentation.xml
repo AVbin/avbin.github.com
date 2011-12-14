@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20111213" date="2011-12-14 06:42:53 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;New Logo &amp; Online Documentation&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>New Logo &amp; Online Documentation</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Today I set out to generate &lt;a href="http://avbin.github.com/docs/"&gt;online documentation&lt;/a&gt;, got distracted and made a &lt;a href="avbin-logo-full.png"&gt;logo&lt;/a&gt; instead, and then found that I still had time to generate the documentation.  It was a very productive day.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, December 13, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="13_New_Logo_%26_Online_Documentation_files/shapeimage_2.png" left="0px" top="0px" width="298px" height="297px"/>
+</content>
