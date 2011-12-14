@@ -57,9 +57,6 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_External_410_945 {
-    position: relative;
-}
 .style_External_410_24 {
     position: relative;
 }
@@ -78,6 +75,13 @@
 .style_SkipStroke_4 {
     background: transparent;
     opacity: 1.00;
+}
+.style_SkipStroke_5 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_External_410_925 {
+    position: relative;
 }
 .Body {
     color: rgb(88, 77, 77);
@@ -176,10 +180,10 @@
 .Normal_External_410_32 {
     position: relative;
 }
-.Normal_External_410_24 {
+.Normal_External_410_925 {
     position: relative;
 }
-.Normal_External_410_945 {
+.Normal_External_410_24 {
     position: relative;
 }
 .Previous {
@@ -239,6 +243,10 @@
     opacity: 1.00;
 }
 .graphic_generic_title_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_image_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }

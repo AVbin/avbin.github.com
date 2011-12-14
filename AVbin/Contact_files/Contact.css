@@ -27,6 +27,10 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
 .style_External_630_50 {
     position: relative;
 }
@@ -88,10 +92,10 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_630_151 {
+.Normal_External_630_50 {
     position: relative;
 }
-.Normal_External_630_50 {
+.Normal_External_630_151 {
     position: relative;
 }
 .Title {
@@ -128,11 +132,15 @@
     background: transparent;
     opacity: 1.00;
 }
-.graphic_shape_layout_style_default_External_630_32 {
-    position: relative;
+.graphic_image_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
 }
 .graphic_shape_layout_style_default {
     padding: 4px;
+}
+.graphic_shape_layout_style_default_External_630_32 {
+    position: relative;
 }
 a {
     color: rgb(88, 77, 77);

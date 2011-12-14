@@ -93,6 +93,10 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
 .Body {
     color: rgb(88, 77, 77);
     font-family: 'ArialMT', 'Arial', sans-serif;
@@ -177,6 +181,10 @@
     opacity: 1.00;
 }
 .graphic_generic_title_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_image_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }

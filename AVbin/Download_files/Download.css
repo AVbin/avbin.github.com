@@ -26,6 +26,10 @@
 .style_External_630_50 {
     position: relative;
 }
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
@@ -85,6 +89,10 @@
     position: relative;
 }
 .graphic_generic_header_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_image_style_default_SkipStroke {
     background: transparent;
     opacity: 1.00;
 }
