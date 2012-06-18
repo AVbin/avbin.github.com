@@ -23,9 +23,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_External_630_313 {
-    position: relative;
-}
 .style_1 {
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 15px;
@@ -59,6 +56,9 @@
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
+}
+.style_External_630_231 {
+    position: relative;
 }
 .style_External_630_50 {
     position: relative;
@@ -125,7 +125,7 @@
 .Normal_External_630_50 {
     position: relative;
 }
-.Normal_External_630_313 {
+.Normal_External_630_231 {
     position: relative;
 }
 .Title {
