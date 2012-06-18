@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20120618" date="2012-06-18 18:33:02 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;AVbin 8.1 Released&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>AVbin 8.1 Released</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>AVbin 8.1 is officially released today.  This was primarily a build-process fix release.  The most notable changes are that the 32-bit OS X and 64-bit Linux versions should actually work.  Version 8 of the former was actually 64-bit, version 8 of the latter didn&#x2019;t link correctly.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Monday, June 18, 2012&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="18_AVbin_8.1_Released_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="300px"/>
+</content>
