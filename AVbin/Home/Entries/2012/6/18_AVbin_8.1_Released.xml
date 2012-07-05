@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
-  <lastEdited clientType="local-build-20120618" date="2012-06-18 18:33:02 +0000"/>
+  <lastEdited clientType="local-build-20120705" date="2012-07-05 06:58:33 +0000"/>
   <textBox id="generic-header-attribute" dynamic="no" visible="yes">
     <richText>&lt;b&gt;AVbin 8.1 Released&lt;/b&gt;</richText>
   </textBox>

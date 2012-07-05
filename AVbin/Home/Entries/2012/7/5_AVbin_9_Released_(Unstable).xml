@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20120705" date="2012-07-05 06:58:33 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;AVbin 9&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>AVbin 9 Released (Unstable)</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>I announce AVbin 9 today with mixed feelings.  It marks a lot of good work in build scripts and switching to Libav.  On the other hand, since I wanted to minimize C code changes for this release, the branch of Libav (0.6) that we used ends up being _older_ code than we used in the 8.1 release -- with some regressions in quality/performance.&#xD;&#xD;End users are encouraged to use the 8.1 release for now.&#xD;&#xD;Developers are encouraged to test version 9 out and give us feedback.&#xD;&#xD;API Changes:&#xD;&#xD;	-	DEPRECATED avbin_get_ffmpeg_revision()&#xD;	-	ADDED avbin_get_libav_commit()&#xD;	-	ADDED avbin_get_libav_version()</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, July 5, 2012&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="5_AVbin_9_Released_%28Unstable%29_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="300px"/>
+</content>

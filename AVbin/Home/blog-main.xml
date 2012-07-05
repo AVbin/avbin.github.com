@@ -3,9 +3,18 @@
   <channel>
     <title>Home</title>
     <link>http://avbin.github.com/AVbin/Home</link>
-    <description>AVbin is a thin cross-platform wrapper around FFmpeg&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
+    <description>AVbin is a thin cross-platform wrapper around Libav&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
 
 AVbin was originally created for the Pyglet project as its media decoding/decompression library,  though others may find AVbin useful as well.</description>
+    <item>
+      <title>AVbin 9 Released (Unstable)</title>
+      <link>http://avbin.github.com/AVbin/Home/Entries/2012/7/5_AVbin_9_Released_%28Unstable%29.html</link>
+      <guid isPermaLink="false">9c55fa3b-214d-41d4-9794-1a1a5cea8a1f</guid>
+      <pubDate>Thu, 5 Jul 2012 00:52:39 -0600</pubDate>
+      <description>I announce AVbin 9 today with mixed feelings.  It marks a lot of good work in build scripts and switching to Libav.  On the other hand, since I wanted to minimize C code changes for this release, the branch of Libav (0.6) that we used ends up being _older_ code than we used in the 8.1 release -- with some regressions in quality/performance.&lt;br/&gt;&lt;br/&gt;End users are encouraged to use the 8.1 release for now.&lt;br/&gt;&lt;br/&gt;Developers are encouraged to test version 9 out and give us feedback.&lt;br/&gt;&lt;br/&gt;API Changes:&lt;br/&gt;&lt;br/&gt;	-	DEPRECATED avbin_get_ffmpeg_revision()&lt;br/&gt;	-	ADDED avbin_get_libav_commit()&lt;br/&gt;	-	ADDED avbin_get_libav_version()</description>
+      <iweb:image href="Media/object010.jpg"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2012/7/5_AVbin_9_Released_%28Unstable%29.html#comment_layer"></iweb:comment>
+    </item>
     <item>
       <title>AVbin 8.1 Released</title>
       <link>http://avbin.github.com/AVbin/Home/Entries/2012/6/18_AVbin_8.1_Released.html</link>
