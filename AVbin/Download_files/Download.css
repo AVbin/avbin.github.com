@@ -3,6 +3,28 @@
 }
 .paragraph_style {
     color: rgb(88, 77, 77);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_1 {
+    color: rgb(88, 77, 77);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
     font-stretch: normal;
@@ -25,6 +47,28 @@
 }
 .style_External_630_50 {
     position: relative;
+}
+.paragraph_style_2 {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
 }
 .style_SkipStroke_2 {
     background: transparent;
@@ -96,13 +140,13 @@
     background: transparent;
     opacity: 1.00;
 }
-.graphic_textbox_layout_style_default_External_630_95 {
-    position: relative;
-}
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_630_103 {
+.graphic_textbox_layout_style_default_External_630_95 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_630_295 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
@@ -121,15 +165,11 @@ a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
-#widget1 a {
-    color: rgb(88, 77, 77);
-    text-decoration: underline;
+.bumper {
+    font-size: 1px;
+    line-height: 1px;
 }
 #widget0 a:hover {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-#widget1 a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
@@ -141,15 +181,7 @@ a:hover {
     color: rgb(88, 77, 77);
     text-decoration: underline;
 }
-#widget1 a:visited {
-    color: rgb(121, 121, 121);
-    text-decoration: underline;
-}
 .spacer {
-    font-size: 1px;
-    line-height: 1px;
-}
-.bumper {
     font-size: 1px;
     line-height: 1px;
 }

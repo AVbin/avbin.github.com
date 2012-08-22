@@ -1,6 +1,9 @@
 .style {
     padding: 4px;
 }
+.style_External_410_476 {
+    position: relative;
+}
 .paragraph_style {
     color: rgb(88, 77, 77);
     font-family: 'ArialMT', 'Arial', sans-serif;
@@ -19,6 +22,50 @@
     padding-bottom: 0px;
     padding-top: 0px;
     text-align: left;
+    text-decoration: line-through;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_1 {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: line-through;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_2 {
+    color: rgb(88, 77, 77);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
     text-decoration: none;
     text-indent: 0px;
     text-transform: none;
@@ -27,12 +74,12 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_External_410_24 {
+    position: relative;
+}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
-}
-.style_External_410_24 {
-    position: relative;
 }
 .style_SkipStroke_1 {
     background: transparent;
@@ -41,9 +88,6 @@
 .style_SkipStroke_3 {
     background: transparent;
     opacity: 1.00;
-}
-.style_External_410_408 {
-    position: relative;
 }
 .style_SkipStroke_4 {
     background: transparent;
@@ -150,10 +194,10 @@
 .Normal_External_410_32 {
     position: relative;
 }
-.Normal_External_410_408 {
+.Normal_External_410_24 {
     position: relative;
 }
-.Normal_External_410_24 {
+.Normal_External_410_476 {
     position: relative;
 }
 .Previous {
