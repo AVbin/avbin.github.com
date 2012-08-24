@@ -3,9 +3,16 @@
   <channel>
     <title>Home</title>
     <link>http://avbin.github.com/AVbin/Home</link>
-    <description>AVbin is a cross-platform, thin wrapper around Libav&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
+    <description>AVbin is a binary release of a cross-platform, thin wrapper around Libav&#x2019;s video and audio decoding library, providing long-term binary compatibility for applications and languages that need it.
 
 AVbin was originally created for the Pyglet project as its media decoding/decompression library,  though we hope others find AVbin useful as well.</description>
+    <item>
+      <title>AVbin 10 &#x201C;Modernity&#x201D; Released</title>
+      <link>http://avbin.github.com/AVbin/Home/Entries/2012/8/23_AVbin_10_Modernity_Released.html</link>
+      <guid isPermaLink="false">b6ee3fda-6692-4173-b0aa-3034a0a32d26</guid>
+      <pubDate>Thu, 23 Aug 2012 20:56:39 -0600</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2012/8/23_AVbin_10_Modernity_Released.html#comment_layer"></iweb:comment>
+    </item>
     <item>
       <title>AVbin 9 Released (Edited)</title>
       <link>http://avbin.github.com/AVbin/Home/Entries/2012/7/5_AVbin_9_Released_%28Unstable%29.html</link>

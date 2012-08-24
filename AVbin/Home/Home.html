@@ -6,7 +6,7 @@
   <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     
     <meta name="Generator" content="iWeb 3.0.4" />
-    <meta name="iWeb-Build" content="local-build-20120822" />
+    <meta name="iWeb-Build" content="local-build-20120823" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>AVbin</title>
@@ -33,10 +33,10 @@ iWebBlogArchivePageTitle = 'Archive';
     <script type="text/javascript" src="../Scripts/iWebSite.js"></script>
     <script type="text/javascript" src="../Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
     <script type="text/javascript" src="../Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="../Scripts/iWebImage.js"></script>
     <script type="text/javascript" src="../Scripts/iWebDebug.js"></script>
     <script type="text/javascript" src="http://www.me.com/1/up/comments/scripts/search.js"></script>
     <script type="text/javascript" src="../Scripts/iWebBlog.js"></script>
-    <script type="text/javascript" src="../Scripts/iWebImage.js"></script>
     <script type="text/javascript" src="../Scripts/Widgets/BlogSummary/BlogSummary.js"></script>
     <script type="text/javascript" src="../Scripts/Widgets/BlogSummary/localizedStrings.js"></script>
     <script type="text/javascript" src="Home_files/Home.js"></script>
@@ -92,7 +92,7 @@ new NavBar('widget0', '../Scripts/Widgets/Navbar', '../Scripts/Widgets/SharedRes
           <div id="id2" style="height: 168px; left: 332px; position: absolute; top: 11px; width: 333px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
             <div class="text-content Normal_External_333_168" style="padding: 0px; ">
               <div class="Normal">
-                <p style="padding-top: 0pt; " class="paragraph_style">AVbin is a cross-platform, thin wrapper around <a title="http://libav.org" href="http://libav.org">Libav</a>’s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.<br /></p>
+                <p style="padding-top: 0pt; " class="paragraph_style">AVbin is a binary release of a cross-platform, thin wrapper around <a title="http://libav.org" href="http://libav.org">Libav</a>’s video and audio decoding library, providing long-term binary compatibility for applications and languages that need it.<br /></p>
                 <p class="paragraph_style"><br /></p>
                 <p style="padding-bottom: 0pt; " class="paragraph_style">AVbin was originally created for the <a title="http://pyglet.org/" href="http://pyglet.org/">Pyglet</a> project as its media decoding/decompression library,  though we hope others find AVbin useful as well.</p>
               </div>
@@ -117,7 +117,7 @@ Blog Summary Widget
             <div style="clear:both"></div>
           </div>
           <script type="text/javascript"><!--//--><![CDATA[//><!--
-new BlogSummaryWidget('widget1', '../Scripts/Widgets/BlogSummary', '../Scripts/Widgets/SharedResources', '..', {"imageVisibility": true, "excerpt-length": 200, "headerOnTop": false, "htmlTemplate": "<!-- White Blog Main -->\n<!-- 5186946: Set separator height to 1px for IE6 -->\n<div id='$WIDGET_ID-item-template' style='display:none; position: relative'>\n<div id='$WIDGET_ID-image' class='Summary_Image'><a href='$link$'><div id='$WIDGET_ID-image-group' style='position:relative' ><\/div><\/a><\/div>\n<div id='$WIDGET_ID-header'>\n<div id='$WIDGET_ID-title' class='Summary_Title'><a href='$link$'><span class='bl-value-title'><\/span><\/a><\/div>\n<div id='$WIDGET_ID-date' class='Summary_Date'><span class='bl-value-date'><\/span><\/div>\n<\/div>\n<div id='$WIDGET_ID-excerpt' class='Summary_Body'><span class='bl-value-excerpt'><\/span><\/div>\n<div style=\"padding: 5px 0 0 0;\">\n<div id='$WIDGET_ID-link' class='Summary_Read_More'><a href='$link$'>Read more...<\/a>\n<span id='$WIDGET_ID-comment-field' class='comment-field' style='display:none'> | <a href='$comment-link$'><span class='bl-value-comment-count'><\/span><\/a><\/span><\/div><\/div>\n<div style='clear:both'><\/div>\n<\/div>\n<div id='$WIDGET_ID-separator-template' class='Summary_Separator' style='display:none; line-height: 1px'>\n<div style=\"background-color: #333; margin-bottom: 10px; height: 1px;\"> &nbsp; <\/div>\n<\/div>", "imageSizeOverride": "", "extraSpace": 20, "imagePosition": "Right", "photoProportions": "Landscape", "imageOutside": false, "imageSize": 29, "rss-for-archive": false, "upgrades": {"styleThreeWidthScale": true}});
+new BlogSummaryWidget('widget1', '../Scripts/Widgets/BlogSummary', '../Scripts/Widgets/SharedResources', '..', {"imageVisibility": true, "excerpt-length": 200, "headerOnTop": false, "htmlTemplate": "<!-- White Blog Main -->\n<!-- 5186946: Set separator height to 1px for IE6 -->\n<div id='$WIDGET_ID-item-template' style='display:none; position: relative'>\n<div id='$WIDGET_ID-image' class='Summary_Image'><a href='$link$'><div id='$WIDGET_ID-image-group' style='position:relative' ><\/div><\/a><\/div>\n<div id='$WIDGET_ID-header'>\n<div id='$WIDGET_ID-title' class='Summary_Title'><a href='$link$'><span class='bl-value-title'><\/span><\/a><\/div>\n<div id='$WIDGET_ID-date' class='Summary_Date'><span class='bl-value-date'><\/span><\/div>\n<\/div>\n<div id='$WIDGET_ID-excerpt' class='Summary_Body'><span class='bl-value-excerpt'><\/span><\/div>\n<div style=\"padding: 5px 0 0 0;\">\n<div id='$WIDGET_ID-link' class='Summary_Read_More'><a href='$link$'>Read more...<\/a>\n<span id='$WIDGET_ID-comment-field' class='comment-field' style='display:none'> | <a href='$comment-link$'><span class='bl-value-comment-count'><\/span><\/a><\/span><\/div><\/div>\n<div style='clear:both'><\/div>\n<\/div>\n<div id='$WIDGET_ID-separator-template' class='Summary_Separator' style='display:none; line-height: 1px'>\n<div style=\"background-color: #333; margin-bottom: 10px; height: 1px;\"> &nbsp; <\/div>\n<\/div>", "imageSizeOverride": "", "extraSpace": 50, "imagePosition": "Left", "photoProportions": "Landscape", "sfr-stroke": "new IWEmptyStroke()", "imageOutside": false, "imageSize": 39, "rss-for-archive": false, "upgrades": {"styleThreeWidthScale": true}});
 //--><!]]></script>
           <div style="height: 252px; width: 255px;  height: 252px; left: 36px; position: absolute; top: -47px; width: 255px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_0">
             <img src="Home_files/avbin-logo.png" alt="" style="border: none; height: 253px; width: 255px; " />

@@ -1,6 +1,31 @@
 .style {
     padding: 4px;
 }
+.paragraph_style {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_External_630_180 {
+    position: relative;
+}
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
@@ -10,9 +35,6 @@
     opacity: 1.00;
 }
 .style_External_630_50 {
-    position: relative;
-}
-.style_External_630_151 {
     position: relative;
 }
 .style_SkipStroke {
@@ -70,10 +92,10 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_630_151 {
+.Normal_External_630_50 {
     position: relative;
 }
-.Normal_External_630_50 {
+.Normal_External_630_180 {
     position: relative;
 }
 .Title {
@@ -114,11 +136,11 @@
     background: transparent;
     opacity: 1.00;
 }
-.graphic_shape_layout_style_default_External_630_32 {
-    position: relative;
-}
 .graphic_shape_layout_style_default {
     padding: 4px;
+}
+.graphic_shape_layout_style_default_External_630_32 {
+    position: relative;
 }
 a {
     color: rgb(88, 77, 77);

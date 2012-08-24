@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="53A10533-942B-422D-8484-57D23CD0B759">
+  <lastEdited clientType="local-build-20120823" date="2012-08-24 03:20:13 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;AVbin 10 &#x201C;Modernity&#x201D; Released&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>AVbin 10 &#x201C;Modernity&#x201D; Released</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Today I&#x2019;m proud to release AVbin 10!  This is by far the best release I have ever put together.&#xD;&#xD;You can go get in now from the &lt;a href="perma://BLPageReference/B42A0C5F-4251-4BA1-8ADE-9F2C140C5B2D"&gt;download&lt;/a&gt; page.&#xD;&#xD;&lt;b&gt;AVbin 10 Highlights&#xD;&lt;/b&gt;	-	Better performance!&#xD;	-	No known unaddressed bugs!&#xD;	-	Ogg files now report proper timestamps again!  (Fixes pyglet being unable to .seek() with an .ogg sound source)&#xD;- Based off of the Libav trunk as of 22 Aug 2012 (yesterday!)&#xD;	-	Binary installers for everyone!  Instead of tarballs and zipfiles, we now have binary installers for all six platforms.&#xD;	-	New functions:  avbin_get_info(), avbin_init_options()&#xD;	-	example/avbin_dump.c updated&#xD;	-	Multithreading support&#xD;	-	...and more!  See the &lt;a href="release_notes_10.txt"&gt;full release notes&lt;/a&gt;.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, August 23, 2012&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="23_AVbin_10_Modernity_Released_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="300px"/>
+</content>

@@ -3,12 +3,12 @@
 }
 .paragraph_style {
     color: rgb(88, 77, 77);
-    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 15px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0;
     line-height: 20px;
     margin-bottom: 0px;
@@ -19,7 +19,7 @@
     padding-bottom: 0px;
     padding-top: 0px;
     text-align: left;
-    text-decoration: line-through;
+    text-decoration: none;
     text-indent: 0px;
     text-transform: none;
 }
@@ -41,18 +41,40 @@
     padding-bottom: 0px;
     padding-top: 0px;
     text-align: left;
-    text-decoration: line-through;
+    text-decoration: none;
     text-indent: 0px;
     text-transform: none;
 }
 .paragraph_style_2 {
     color: rgb(88, 77, 77);
-    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 15px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_3 {
+    color: rgb(88, 77, 77);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 20px;
     margin-bottom: 0px;
@@ -71,9 +93,6 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_External_410_24 {
-    position: relative;
-}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
@@ -81,6 +100,9 @@
 .style_SkipStroke_1 {
     background: transparent;
     opacity: 1.00;
+}
+.style_External_410_24 {
+    position: relative;
 }
 .style_SkipStroke_3 {
     background: transparent;
@@ -94,7 +116,7 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_External_410_491 {
+.style_External_410_354 {
     position: relative;
 }
 .Body {
@@ -194,10 +216,10 @@
 .Normal_External_410_32 {
     position: relative;
 }
-.Normal_External_410_24 {
+.Normal_External_410_354 {
     position: relative;
 }
-.Normal_External_410_491 {
+.Normal_External_410_24 {
     position: relative;
 }
 .Previous {

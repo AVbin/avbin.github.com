@@ -3,9 +3,18 @@
   <channel>
     <title>Home</title>
     <link>http://avbin.github.com/AVbin/Home</link>
-    <description>AVbin is a cross-platform, thin wrapper around Libav&#x2019;s video and audio decoding functionality, providing binary compatibility for applications and languages that need it.
+    <description>AVbin is a binary release of a cross-platform, thin wrapper around Libav&#x2019;s video and audio decoding library, providing long-term binary compatibility for applications and languages that need it.
 
 AVbin was originally created for the Pyglet project as its media decoding/decompression library,  though we hope others find AVbin useful as well.</description>
+    <item>
+      <title>AVbin 10 &#x201C;Modernity&#x201D; Released</title>
+      <link>http://avbin.github.com/AVbin/Home/Entries/2012/8/23_AVbin_10_Modernity_Released.html</link>
+      <guid isPermaLink="false">b6ee3fda-6692-4173-b0aa-3034a0a32d26</guid>
+      <pubDate>Thu, 23 Aug 2012 20:56:39 -0600</pubDate>
+      <description>Today I&#x2019;m proud to release AVbin 10!  This is by far the best release I have ever put together.&lt;br/&gt;&lt;br/&gt;You can go get in now from the &lt;a href="../Download.html"&gt;download&lt;/a&gt; page.&lt;br/&gt;&lt;br/&gt;AVbin 10 Highlights&lt;br/&gt;	-	Better performance!&lt;br/&gt;	-	No known unaddressed bugs!&lt;br/&gt;	-	Ogg files now report proper timestamps again!  (Fixes pyglet being unable to .seek() with an .ogg sound source)&lt;br/&gt;- Based off of the Libav trunk as of 22 Aug 2012 (yesterday!)&lt;br/&gt;	-	Binary installers for everyone!  Instead of tarballs and zipfiles, we now have binary installers for all six platforms.&lt;br/&gt;	-	New functions:  avbin_get_info(), avbin_init_options()&lt;br/&gt;	-	example/avbin_dump.c updated&lt;br/&gt;	-	Multithreading support&lt;br/&gt;	-	...and more!  See the &lt;a href="Entries/2012/8/23_AVbin_10_Modernity_Released_files/release_notes_10.txt"&gt;full release notes&lt;/a&gt;.</description>
+      <iweb:image href="Media/object001.jpg"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2012/8/23_AVbin_10_Modernity_Released.html#comment_layer"></iweb:comment>
+    </item>
     <item>
       <title>AVbin 9 Released (Edited)</title>
       <link>http://avbin.github.com/AVbin/Home/Entries/2012/7/5_AVbin_9_Released_%28Unstable%29.html</link>
@@ -39,17 +48,8 @@ AVbin was originally created for the Pyglet project as its media decoding/decomp
       <guid isPermaLink="false">3e3040a0-7cfc-4fc9-ade3-eb446bb2d7b4</guid>
       <pubDate>Sat, 10 Dec 2011 21:05:36 -0700</pubDate>
       <description>I am proud to announce AVbin 8, the first full release since 2008.&lt;br/&gt;&lt;br/&gt;To all those who pointed me in the right direction on mailing lists and forums:  Thank you!!!  I would like to specifically mention Alex Holkner, who created this project in the first place, and Micah Richert, whose shoulders I stood on for this release.&lt;br/&gt;&lt;br/&gt;AVbin 8 Highlights&lt;br/&gt;	-	Established which platforms were going to be supported going forward (added Win64 and OS X 64-bit Intel; dropped OS X 32-bit PPC)&lt;br/&gt;	-	Created development/build environments for each platform&lt;br/&gt;	-	Successfully compiled/released a build for each platform&lt;br/&gt;	-	Migrated from svn on Google Project to git on Github&lt;br/&gt;	-	Created a new project web site&lt;br/&gt;	-	28 commits&lt;br/&gt;	-	Approximately 15 issues closed...though mostly since they just don&#x2019;t apply any more.&lt;br/&gt;&lt;br/&gt;Known Issues with AVbin 8:&lt;br/&gt;	-	The version of FFmpeg used is one year old, and has known bugs and security problems&lt;br/&gt;	-	The AVbin binaries have not been tested internally.&lt;br/&gt;	-	The AVbin binaries have not been tested with Pyglet.&lt;br/&gt;	-	It is known that the build doesn&#x2019;t actually work for a lot of file formats you would expect it to on at least one platform (win32)&lt;br/&gt;&lt;br/&gt;The previous release was based on a 3-year old FFmpeg revision.  That revision had even more bugs and security problems than the newer one we used.  When I took over as the new maintainer almost exactly a month ago, I accepted the generous offer of Micah Richert to use his personal build he had put together a year ago as a starting point.  Since using the newest code was not a goal for this release, I simply used the exact revision that Micah used, to minimize the already considerable effort it was taking to get this project resurrected.&lt;br/&gt;&lt;br/&gt;I&#x2019;ve put together a &lt;a href="../Roadmap.html"&gt;Roadmap&lt;/a&gt; for things to accomplish for AVbin 9.  Check it out!&lt;br/&gt;&lt;br/&gt;~ Nathan</description>
-      <iweb:image href="Media/object008.jpg"></iweb:image>
-      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2011/12/10_AVbin_8.html#comment_layer"></iweb:comment>
-    </item>
-    <item>
-      <title>AVbin project migrated to Github</title>
-      <link>http://avbin.github.com/AVbin/Home/Entries/2011/11/24_AVbin_project_migrated_to_Github.html</link>
-      <guid isPermaLink="false">c9b268ff-ec96-41c5-b2ca-ca57cd24dfc8</guid>
-      <pubDate>Thu, 24 Nov 2011 14:41:31 -0700</pubDate>
-      <description>Welcome to the new AVbin site!  AVbin has moved from subversion on Google code to Git on Github.  We hope that the move promotes more collaboration and participation in the project.</description>
       <iweb:image href="Media/object004.jpg"></iweb:image>
-      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2011/11/24_AVbin_project_migrated_to_Github.html#comment_layer"></iweb:comment>
+      <iweb:comment enabled="0" count="0" link="http://avbin.github.com/AVbin/Home/Entries/2011/12/10_AVbin_8.html#comment_layer"></iweb:comment>
     </item>
     <iweb:dateFormat>EEEE, MMMM d, y</iweb:dateFormat>
     <iweb:baseURL>http://avbin.github.com/AVbin/Home</iweb:baseURL>

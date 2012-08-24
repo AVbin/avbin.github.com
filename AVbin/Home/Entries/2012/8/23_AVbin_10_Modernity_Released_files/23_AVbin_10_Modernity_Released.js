@@ -5,7 +5,7 @@ setTransparentGifURL('../../../../Media/transparent.gif');function applyEffects(
 function hostedOnDM()
 {return false;}
 function onPageLoad()
-{dynamicallyPopulate();loadMozillaCSS('5_AVbin_9_Released_(Unstable)_files/5_AVbin_9_Released_(Unstable)Moz.css')
+{dynamicallyPopulate();loadMozillaCSS('23_AVbin_10_Modernity_Released_files/23_AVbin_10_Modernity_ReleasedMoz.css')
 adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');Widget.onload();fixAllIEPNGs('../../../../Media/transparent.gif');BlogFixupPreviousNext();applyEffects()}
 function onPageUnload()
 {Widget.onunload();}
